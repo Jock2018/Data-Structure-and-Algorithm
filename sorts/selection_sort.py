@@ -10,7 +10,7 @@ Created on 2019/4/24 8:55
 def seletion_sort(collecion):
     # 选择排序
     length = len(collection)
-    for i in range(length - 1):    # 最后一个没有可以比较的了
+    for i in range(length -1):    # 比较length-1轮就可以排好序
         least = i
         for j in range(i+1, length):
             if collection[j] < collection[least]:
