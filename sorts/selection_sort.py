@@ -24,7 +24,7 @@ if __name__ == '__main__':
     for i in collection:
         print(i, end=' ')
     collection = selection_sort(collection)
-    print('排序后：', end=' ')
+    print('\n排序后：', end='')
     for i in collection:
         print(i, end=' ')
 
